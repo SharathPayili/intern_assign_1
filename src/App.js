@@ -44,6 +44,10 @@ function App() {
   
   console.log(info,[]);
   const transformed = info.map(({ WORK }) => ({ name: WORK }));
+
+  transformed.forEach((item, i) => {
+  item.id = i + 1;
+});
   console.log(transformed);
 
   var chart = anychart.ganttProject();
