@@ -41,12 +41,31 @@ function App() {
     })
   }
 
-  
+  var transformed = [];
+
   console.log(info,[]);
-  const transformed = info.map(({ WORK }) => ({ name: WORK }));
+
+  // Change the names of the respective fields to WORK , DOP before the below step
+  // so that errors can be avoided.
+
+
+   transformed = info.map(({ WORK , DOP }) => ({ name: WORK , period: DOP }));
+  
 
   transformed.forEach((item, i) => {
+    
+    
   item.id = i + 1;
+  var date = item.period;
+  if(date === undefined){
+    item.actualStart = "Coming Soon"
+  }
+  else if(date.includes("-")){
+    date = date.substring(date.indexOf(";") + 1);
+    item.actualStart = date.substring(0,date.indexOf('-'));
+    item.actualEnd = date.substring(date.indexOf('-')+1);
+  }
+  
 });
   console.log(transformed);
 
@@ -55,8 +74,8 @@ function App() {
 
   return (
     <div >
-      
-    <input type="file" onChange={(e)=>{
+      <h1>🥗</h1>
+    <input type="file" accept=".xls , .xlsx" onChange={(e)=>{
       const file = e.target.files[0];
       readExcel(file);
     }}/>
