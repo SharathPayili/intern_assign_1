@@ -7,9 +7,6 @@ import anychart from 'anychart'
 
  function Gantt() {
 
-  // Format for adding the objects is =>
-  // || name:"" || || id:int || || parent:int || || actualStart (yyyy-mm-dd) || || actualEnd (yyyy-mm-dd) || || progressValue ( any decimal number between 0-1) ||
-  
     var data = [
   {
     name: "4th floor roof",
@@ -371,7 +368,7 @@ import anychart from 'anychart'
     progressValue: 0.25,
     id: 46,
     actualStart: "2020-04-24",
-    actualEnd: "2020-04-24"
+    actualEnd: "2020-04-25"
   },
   {
     parent: 42,
@@ -813,24 +810,24 @@ import anychart from 'anychart'
     name: "elevation 2nd coating plas",
     progressValue: 0.25,
     id: 102,
-    actualStart: "2020-07-27",
-    actualEnd: "2020-07-08"
+    actualStart: "2020-07-08",
+    actualEnd: "2020-07-27"
   },
   {
     parent: 99,
     name: "remaning exterior 2nd coating plas",
     progressValue: 0.25,
     id: 103,
-    actualStart: "2020-07-27",
-    actualEnd: "2020-07-08"
+    actualStart: "2020-07-08",
+    actualEnd: "2020-07-27"
   },
   {
     parent: 99,
     name: "drainage external",
     progressValue: 0.25,
     id: 104,
-    actualStart: "2020-07-30",
-    actualEnd: "2020-07-08"
+    actualStart: "2020-07-08",
+    actualEnd: "2020-07-30"
   },
   {
     parent: 99,
