@@ -177,8 +177,8 @@ import anychart from 'anychart'
     name: "railings",
     progressValue: 0.25,
     id: 22,
-    actualStart: 2021-"4-01",
-    actualEnd: 2021-"7-02"
+    actualStart: "2021-4-01",
+    actualEnd: "2021-7-02"
   },
   {
     name: "2nd floor",
