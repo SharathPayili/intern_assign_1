@@ -200,7 +200,7 @@ import anychart from 'anychart'
     name: "1st coat internal plas",
     progressValue: 0.25,
     id: 25,
-    actualStart: 2020-"8-04",
+    actualStart: "2020-8-04",
     actualEnd: "2020-04-30"
   },
   {
@@ -264,7 +264,7 @@ import anychart from 'anychart'
     name: "wall tiles",
     progressValue: 0.25,
     id: 33,
-    actualStart: 2021-"4-01",
+    actualStart: "2021-4-01",
     actualEnd: "2021-01-31"
   },
   {
@@ -272,7 +272,7 @@ import anychart from 'anychart'
     name: "painting",
     progressValue: 0.25,
     id: 34,
-    actualStart: 2021-"4-01",
+    actualStart: "2021-4-01",
     actualEnd: "2021-01-21"
   },
   {
@@ -328,7 +328,7 @@ import anychart from 'anychart'
     name: "railings",
     progressValue: 0.25,
     id: 41,
-    actualStart: 2021-"6-01",
+    actualStart: "2021-6-01",
     actualEnd: "2021-01-31"
   },
   {
@@ -447,7 +447,7 @@ import anychart from 'anychart'
     name: "sanitary and CP fitings",
     progressValue: 0.25,
     id: 56,
-    actualStart: "2021-16-01",
+    actualStart: "2021-01-16",
     actualEnd: "2021-01-31"
   },
   {
@@ -502,7 +502,7 @@ import anychart from 'anychart'
     name: "1st coat",
     progressValue: 0.25,
     id: 63,
-    actualStart: "2020-16-05",
+    actualStart: "2020-05-16",
     actualEnd: "2020-06-14"
   },
   {
@@ -526,7 +526,7 @@ import anychart from 'anychart'
     name: "drainage-plumbing internal",
     progressValue: 0.25,
     id: 66,
-    actualStart: "2020-23-07",
+    actualStart: "2020-07-23",
     actualEnd: "2020-08-14"
   },
   {
@@ -582,7 +582,7 @@ import anychart from 'anychart'
     name: "doors",
     progressValue: 0.25,
     id: 73,
-    actualStart: "2021-16-01",
+    actualStart: "2021-01-16",
     actualEnd: "2021-01-31"
   },
   {
