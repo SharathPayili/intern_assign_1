@@ -630,7 +630,7 @@ import anychart from 'anychart'
     name: "railings",
     progressValue: 0.25,
     id: 79,
-    actualStart: "2021-13-01",
+    actualStart: "2021-01-13",
     actualEnd: "2021-07-02"
   },
   {
