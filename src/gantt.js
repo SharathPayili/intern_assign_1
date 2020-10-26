@@ -7,6 +7,9 @@ import anychart from 'anychart'
 
  function Gantt() {
 
+  // Format for adding the objects is =>
+  // || name:"" || || id:int || || parent:int || || actualStart (yyyy-mm-dd) || || actualEnd (yyyy-mm-dd) || || progressValue ( any decimal number between 0-1) ||
+  
     var data = [
   {
     name: "4th floor roof",
