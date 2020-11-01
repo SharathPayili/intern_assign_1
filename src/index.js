@@ -6,9 +6,9 @@ import * as serviceWorker from './serviceWorker';
 import Gantt from './gantt';
 
 ReactDOM.render(
-  <React.StrictMode>
+ 
     <Gantt />
-  </React.StrictMode>,
+  ,
   document.getElementById('root')
 );
 
