@@ -7,7 +7,7 @@ import Gantt from './gantt';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Gantt />
   </React.StrictMode>,
   document.getElementById('root')
 );
